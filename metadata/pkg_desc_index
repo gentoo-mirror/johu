@@ -1,4 +1,4 @@
-app-emulation/vagrant-bin 1.7.4: Tool for building and distributing virtual machines
+app-emulation/vagrant-bin 1.8.1: Tool for building and distributing virtual machines
 dev-libs/qtkeychain 9999: Qt API for storing passwords securely
 media-sound/tomahawk 9999: Multi-source social music player
 net-irc/quassel 9999: Qt/KDE IRC client supporting a remote daemon for 24/7 connectivity
