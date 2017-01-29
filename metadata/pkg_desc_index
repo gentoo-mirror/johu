@@ -3,4 +3,5 @@ app-emulation/vagrant-bin 1.9.1: Tool for building and distributing virtual mach
 dev-embedded/teensy_loader_cli 9999: Teensy loader command line interface
 dev-libs/qtkeychain 9999: Qt API for storing passwords securely
 media-sound/tomahawk 9999: Multi-source social music player
+net-im/discord-bin 0.0.1: All-in-one voice and text chat for gamers
 net-irc/quassel 9999: Qt/KDE IRC client supporting a remote daemon for 24/7 connectivity
