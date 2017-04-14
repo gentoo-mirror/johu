@@ -1,5 +1,5 @@
 app-admin/calamares 9999: Distribution-independent installer framework
-app-emulation/vagrant-bin 1.9.1: Tool for building and distributing virtual machines
+app-emulation/vagrant-bin 1.9.3: Tool for building and distributing virtual machines
 dev-embedded/teensy_loader_cli 9999: Teensy loader command line interface
 dev-libs/qtkeychain 9999: Qt API for storing passwords securely
 media-sound/tomahawk 9999: Multi-source social music player
