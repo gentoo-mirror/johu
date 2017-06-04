@@ -5,7 +5,7 @@ EAPI=6
 
 inherit cmake-utils eutils pax-utils systemd user
 
-EGIT_REPO_URI="git://git.quassel-irc.org/quassel"
+EGIT_REPO_URI=( "https://github.com/${PN}/${PN}" "git://git.${PN}-irc.org/${PN}" )
 [[ "${PV}" == "9999" ]] && inherit git-r3
 
 DESCRIPTION="Qt/KDE IRC client supporting a remote daemon for 24/7 connectivity"
@@ -19,7 +19,7 @@ IUSE="+breeze crypt +dbus debug kde monolithic oxygen postgres +server snorenoti
 
 SERVER_RDEPEND="
 	dev-qt/qtscript:5
-	crypt? ( app-crypt/qca:2[openssl,qt5] )
+	crypt? ( app-crypt/qca:2[qt5,ssl] )
 	postgres? ( dev-qt/qtsql:5[postgres] )
 	!postgres? ( dev-qt/qtsql:5[sqlite] dev-db/sqlite:3[threadsafe(+),-secure-delete] )
 	syslog? ( virtual/logger )
