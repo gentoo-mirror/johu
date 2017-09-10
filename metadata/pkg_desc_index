@@ -1,6 +1,6 @@
 app-admin/calamares 9999: Distribution-independent installer framework
 app-editors/atom-bin 1.16.0: A hackable text editor for the 21st Century. - Binary package
-app-emulation/vagrant-bin 1.9.8: Tool for building and distributing virtual machines
+app-emulation/vagrant-bin 2.0.0: Tool for building and distributing virtual machines
 dev-embedded/teensy_loader_cli 9999: Teensy loader command line interface
 dev-libs/qtkeychain 9999: Qt API for storing passwords securely
 media-sound/tomahawk 9999: Multi-source social music player
