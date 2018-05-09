@@ -3,7 +3,7 @@
 
 EAPI=6
 
-inherit autotools
+inherit autotools eapi7-ver
 
 DESCRIPTION="i3 fork with gaps and some more features"
 HOMEPAGE="https://github.com/Airblader/i3"
@@ -42,9 +42,9 @@ RDEPEND="${CDEPEND}
 
 S=${WORKDIR}/i3-${PV}
 
-DOCS=( RELEASE-NOTES-${PV} )
+DOCS=( RELEASE-NOTES-$(ver_cut 1-2) )
 
-PATCHES=( "${FILESDIR}/${P}-musl.patch" )
+PATCHES=( "${FILESDIR}/${PN}-$(ver_cut 1-2)-musl.patch" )
 
 src_prepare() {
 	default
