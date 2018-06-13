@@ -1,10 +1,10 @@
 DEFINED_PHASES=install unpack
-DEPEND=virtual/libusb:1 >=dev-vcs/git-1.8.2.1
+DEPEND=virtual/libusb:1 >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Teensy loader command line interface
 EAPI=6
 HOMEPAGE=http://www.pjrc.com/teensy/loader_cli.html
 LICENSE=GPL-3
 RDEPEND=virtual/libusb:1
 SLOT=0
-_eclasses_=git-r3	af51ccfceeb403ab80f1bf9209d372c8
+_eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b
 _md5_=42a0ad567f74bd2359b9af0b72d34e80
