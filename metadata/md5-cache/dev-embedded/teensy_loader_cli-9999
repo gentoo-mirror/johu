@@ -7,5 +7,5 @@ HOMEPAGE=http://www.pjrc.com/teensy/loader_cli.html
 LICENSE=GPL-3
 RDEPEND=virtual/libusb:1
 SLOT=0
-_eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b
+_eclasses_=git-r3	918d6a744039c29af2cadc7317459765
 _md5_=389b4dc3bb2bc7c3cd2e43470b2c0d76
