@@ -3,7 +3,6 @@
 # * generated automatically using pmaint *
 
 app-admin/calamares:pythonqt - Enable PythonQt-based module interface
-app-editors/atom-bin:system-node - Use node.js system implementation instead of the built-in one.
 net-irc/quassel:X - Build the Qt5 GUI client for quassel. If this USE flag is disabled, the GUI is not built, and cannot be used. You might want to disable this on the server, but you need it enabled on the client.
 net-irc/quassel:bundled-icons - Use icon themes bundled with Quassel, rather than depending on system packages.
 net-irc/quassel:crypt - Support core->network per-channel and per-query blowfish encryption via app-crypt/qca SLOT 2.
